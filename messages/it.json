@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "industries": "Settori",
+    "insights": "Approfondimenti",
+    "news": "News",
+    "faqs": "FAQ",
+    "contact": "Contatti",
+    "servicesHeading": "Cosa facciamo",
+    "industriesHeading": "Chi serviamo",
+    "cta": "Richiedi una valutazione gratuita"
+  },
+  "region": {
+    "label": "Paese e lingua",
+    "country": "Paese",
+    "language": "Lingua",
+    "current": "Attuale",
+    "placeholderNote": "Dettagli dell'ufficio in arrivo"
+  },
+  "countries": {
+    "GB": "Regno Unito",
+    "IT": "Italia",
+    "DE": "Germania",
+    "AE": "Emirati Arabi Uniti"
+  },
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "de": "Deutsch"
+  },
+  "hero": {
+    "badge": "IT aziendale · Cybersecurity · Talenti globali",
+    "titlePre": "Reinventiamo il modo in cui la tua",
+    "titleAccent": "tecnologia",
+    "titlePost": "lavora",
+    "subtitle": "Offriamo supporto IT innovativo, cybersecurity e personale qualificato a livello globale — per operazioni fluide, sicure e pronte ad affrontare ogni sfida futura.",
+    "ctaPrimary": "Richiedi una valutazione gratuita",
+    "ctaSecondary": "Scopri i nostri servizi",
+    "trust": "Processi conformi agli standard ISO · Professionisti certificati · Conforme al GDPR"
+  },
+  "stats": {
+    "satisfaction": "Soddisfazione dei clienti",
+    "support": "Supporto globale",
+    "countries": "Paesi",
+    "experience": "Anni di esperienza"
+  },
+  "marquee": {
+    "title": "Piattaforme e tecnologie che gestiamo ogni giorno"
+  },
+  "about": {
+    "kicker": "Chi siamo",
+    "title": "Tecnologia che cresce con la tua azienda",
+    "body": "Techwelt nasce per rendere la tecnologia aziendale semplice e naturale. Uniamo una profonda competenza in sicurezza, operazioni IT rigorose e una rete globale di talenti in un unico team che ti mantiene operativo — e pronto per ciò che verrà.",
+    "point1": "Un unico partner responsabile per IT, sicurezza e talenti",
+    "point2": "Ingegneri integrati nel tuo fuso orario e sulla tua tecnologia",
+    "point3": "SLA trasparenti e report da presentare al consiglio",
+    "cta": "Scopri come lavoriamo"
+  },
+  "services": {
+    "kicker": "Cosa facciamo",
+    "title": "Un unico partner per ogni livello del tuo IT",
+    "subtitle": "Dal registro dei rischi in sala riunioni al ticket del service desk — Techwelt copre l'intera infrastruttura così il tuo team può concentrarsi sul business.",
+    "learnMore": "Scopri di più",
+    "cyber": {
+      "title": "Valutazioni del rischio cyber",
+      "desc": "Mappiamo la tua superficie di attacco, individuiamo le vulnerabilità prima degli aggressori e ti forniamo un piano di remediation prioritizzato e pronto per il consiglio."
+    },
+    "asset": {
+      "title": "Gestione del ciclo di vita degli asset IT",
+      "desc": "Acquisto, distribuzione, monitoraggio e dismissione dell'hardware a livello globale — con piena visibilità e zero sprechi."
+    },
+    "staffing": {
+      "title": "Staffing IT globale",
+      "desc": "Ingegneri e specialisti certificati su richiesta, in linea con la tua tecnologia e il tuo fuso orario."
+    },
+    "support": {
+      "title": "Servizi di supporto IT globale",
+      "desc": "Supporto multi-regione 24 ore su 24 che mantiene ogni sede online e ogni utente produttivo."
+    },
+    "desk": {
+      "title": "Service Desk globale",
+      "desc": "Un unico punto di contatto cordiale — triage rapido, soluzioni concrete, SLA misurabili."
+    },
+    "tag1": "Threat modelling",
+    "tag2": "Penetration test",
+    "tag3": "Conformità"
+  },
+  "why": {
+    "kicker": "Perché sceglierci",
+    "title": "I numeri dietro la serenità",
+    "subtitle": "Non ti chiediamo di credere sulla parola alla nostra affidabilità — la misuriamo, la documentiamo e la garantiamo.",
+    "satisfaction": "Soddisfazione dei clienti",
+    "satisfactionDesc": "Misurata in ogni progetto, ogni trimestre.",
+    "support": "Copertura del supporto",
+    "supportDesc": "Servizio follow-the-sun che non dorme mai.",
+    "certified": "Professionisti certificati",
+    "certifiedDesc": "Ingegneri e specialisti di sicurezza certificati dai vendor.",
+    "industries": "Settori serviti",
+    "industriesDesc": "Dai data center al farmaceutico al petrolifero."
+  },
+  "process": {
+    "kicker": "Come lavoriamo",
+    "title": "Un processo costruito sulla fiducia",
+    "step1": "Consulenza",
+    "step1Desc": "Prima ascoltiamo. Un'analisi approfondita dei tuoi sistemi, rischi e obiettivi — senza presupposti, senza tecnicismi.",
+    "step2": "Strategia di implementazione",
+    "step2Desc": "Una roadmap su misura con milestone chiare, responsabili e risultati misurabili — costruita sulla tua realtà.",
+    "step3": "Supporto continuativo",
+    "step3Desc": "Monitoraggio proattivo, miglioramento continuo e un team che resta responsabile ben oltre il go-live."
+  },
+  "industries": {
+    "kicker": "Presenza nei settori",
+    "title": "Affidabili dove il downtime non è un'opzione",
+    "body": "Settori regolamentati e ad alto rischio si affidano a noi per mantenere sicuri e operativi i sistemi critici — a qualsiasi ora, in qualsiasi regione.",
+    "dataCenters": "Data Center",
+    "dataCentersDesc": "Infrastrutture e sicurezza a uptime critico.",
+    "manufacturing": "Manifatturiero",
+    "manufacturingDesc": "Convergenza OT/IT in totale sicurezza.",
+    "pharma": "Farmaceutico",
+    "pharmaDesc": "Ambienti conformi e validati.",
+    "retail": "Retail",
+    "retailDesc": "Punti vendita e dati sempre attivi.",
+    "oilGas": "Petrolio e Gas",
+    "oilGasDesc": "Operazioni resilienti in siti remoti.",
+    "fmcg": "Beni di largo consumo",
+    "fmcgDesc": "Scalabilità al passo con la domanda."
+  },
+  "testimonials": {
+    "kicker": "Storie dei clienti",
+    "title": "Amati dai team che manteniamo operativi",
+    "subtitle": "Usa le frecce per scorrere — risultati reali delle aziende che supportiamo.",
+    "t1": "Techwelt ha trasformato il nostro service desk da emergenza quotidiana a qualcosa a cui sinceramente non pensiamo più.",
+    "t1Author": "Direttore Operativo · Manifatturiero, Italia",
+    "t2": "La loro valutazione del rischio cyber è stata il report di sicurezza più chiaro mai visto dal nostro consiglio. Sapevamo esattamente cosa correggere per primo.",
+    "t2Author": "Chief Information Security Officer · Farmaceutico, Regno Unito",
+    "t3": "Avevamo bisogno di ingegneri certificati in due paesi in settimane, non mesi. Hanno fornito le persone giuste, sulla nostra tecnologia.",
+    "t3Author": "Responsabile IT · Retail, Europa",
+    "t4": "Un supporto 24 ore su 24 che sembra davvero personale. Ogni ticket riceve una soluzione concreta e gli SLA vengono rispettati.",
+    "t4Author": "COO · Beni di largo consumo, Italia",
+    "t5": "Migrare il nostro data center è stato semplice perché non si è rotto nulla. È il complimento più grande che possa fare a un partner IT.",
+    "t5Author": "VP Infrastrutture · Petrolio e Gas, Regno Unito"
+  },
+  "blog": {
+    "kicker": "Approfondimenti",
+    "title": "Contenuti che valgono il tuo tempo",
+    "viewAll": "Vedi tutti gli articoli",
+    "read": "min di lettura",
+    "p1Tag": "Cybersecurity",
+    "p1Title": "5 rischi cyber che ogni media impresa trascura nel 2026",
+    "p2Tag": "Operazioni IT",
+    "p2Title": "Perché un service desk follow-the-sun si ripaga da solo",
+    "p3Tag": "Talenti",
+    "p3Title": "Costruire un team IT globale senza perdere il controllo"
+  },
+  "news": {
+    "kicker": "News",
+    "title": "Le novità di Techwelt",
+    "subtitle": "Annunci, approfondimenti e aggiornamenti dal nostro team globale.",
+    "latestTitle": "Ultime notizie",
+    "viewAll": "Tutte le notizie",
+    "readMore": "Leggi di più",
+    "backToNews": "Torna alle notizie",
+    "emptyTitle": "Ancora nessuna notizia",
+    "emptyBody": "Stiamo preparando i primi articoli — torna presto."
+  },
+  "faq": {
+    "kicker": "Domande frequenti",
+    "title": "Le risposte alle tue domande",
+    "body": "Non trovi quello che cerchi? Il nostro team è a un messaggio di distanza.",
+    "cta": "Parla con noi",
+    "q1": "Con quale rapidità potete rispondere a un problema critico?",
+    "a1": "Il nostro service desk opera 24/7 in tutte le regioni. Gli incidenti critici vengono gestiti immediatamente, con tempi di risposta definiti nel tuo SLA — in genere in minuti, non ore.",
+    "q2": "In quali paesi operate?",
+    "a2": "Abbiamo entità registrate nel Regno Unito, in Italia, in Germania e negli Emirati Arabi Uniti, e il nostro modello follow-the-sun ci permette di supportare clienti in Europa, in Medio Oriente e oltre.",
+    "q3": "Cosa include una valutazione del rischio cyber?",
+    "a3": "Mappiamo la tua superficie di attacco, testiamo le vulnerabilità, esaminiamo policy e configurazioni e forniamo una roadmap di remediation prioritizzata e pronta per il consiglio, con passi successivi chiari.",
+    "q4": "Potete integrare il nostro team IT esistente?",
+    "a4": "Assolutamente. Con lo Staffing IT globale forniamo specialisti certificati che si integrano nel tuo team, sulla tua tecnologia e nel tuo fuso orario — per un progetto o nel lungo termine.",
+    "q5": "Come sono strutturati i prezzi?",
+    "a5": "I progetti sono dimensionati sulle tue esigenze — contratti gestiti, lavoro a progetto o staffing. Dopo una breve consulenza forniamo prezzi trasparenti e a perimetro fisso, senza sorprese."
+  },
+  "contact": {
+    "kicker": "Inizia ora",
+    "titlePre": "Rendiamo il tuo IT un",
+    "titleAccent": "non-problema",
+    "body": "Prenota una valutazione gratuita e senza impegno. Esamineremo il tuo ambiente e ti mostreremo esattamente dove possiamo aiutarti — di solito entro 48 ore.",
+    "emailLabel": "Scrivici",
+    "callLabel": "Chiamaci · Lun–Ven, 9:00–18:00",
+    "officeLabel": "L'ufficio più vicino a te",
+    "name": "Nome completo",
+    "namePh": "Mario Rossi",
+    "email": "Email aziendale",
+    "emailPh": "mario@azienda.com",
+    "company": "Azienda",
+    "companyPh": "Acme Srl",
+    "phone": "Telefono",
+    "phonePh": "+39 …",
+    "message": "Come possiamo aiutarti?",
+    "messagePh": "Raccontaci la tua sfida IT o di sicurezza…",
+    "submit": "Richiedi la mia valutazione gratuita",
+    "privacy": "Niente spam, mai. Useremo i tuoi dati solo per rispondere alla tua richiesta.",
+    "successTitle": "Grazie!",
+    "successBody": "La tua richiesta è stata inviata. Uno specialista ti contatterà entro un giorno lavorativo."
+  },
+  "footer": {
+    "tagline": "Supporto IT innovativo, cybersecurity e talenti globali — per aziende fluide, sicure e pronte al futuro.",
+    "services": "Servizi",
+    "company": "Azienda",
+    "support": "Supporto",
+    "about": "Chi siamo",
+    "process": "Il nostro processo",
+    "industries": "Settori",
+    "insights": "Approfondimenti",
+    "careers": "Lavora con noi",
+    "contact": "Contattaci",
+    "faqs": "Domande frequenti",
+    "serviceDesk": "Service Desk",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini",
+    "rights": "Tutti i diritti riservati.",
+    "backToTop": "Torna su"
+  },
+  "metadata": {
+    "title": "Techwelt — IT aziendale, Cybersecurity e Talenti globali",
+    "description": "Techwelt offre supporto IT innovativo, cybersecurity e personale qualificato a livello globale — garantendo operazioni fluide, maggiore sicurezza e tecnologie pronte per il futuro alle aziende di tutto il mondo."
+  }
+}
