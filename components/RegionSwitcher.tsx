@@ -30,6 +30,7 @@ export default function RegionSwitcher({ dark = true }: { dark?: boolean }) {
   }, []);
 
   function chooseCountry(code: CountryCode) {
+    // eslint-disable-next-line react-hooks/immutability
     document.cookie = `${COUNTRY_COOKIE}=${code}; path=/; max-age=31536000; samesite=lax`;
     startTransition(() => nextRouter.refresh());
   }

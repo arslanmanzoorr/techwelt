@@ -60,32 +60,150 @@
   },
   "services": {
     "kicker": "What we do",
-    "title": "One partner for every layer of your IT",
-    "subtitle": "From the boardroom risk register to the service desk ticket — Techwelt covers the full stack so your team can focus on the business.",
+    "title": "End-to-end technology services, one accountable partner",
+    "subtitle": "From boardroom strategy to the service-desk ticket, Techwelt covers the full enterprise stack — so you can scale with confidence.",
     "learnMore": "Learn more",
-    "cyber": {
-      "title": "Cyber Risk Assessments",
-      "desc": "We map your attack surface, expose vulnerabilities before adversaries do, and hand you a prioritised, board-ready remediation plan."
+    "viewAll": "View all services",
+    "strategy": {
+      "title": "Strategy & Consulting",
+      "desc": "We turn ambition into an actionable roadmap, aligning technology, operations and people around measurable business outcomes."
     },
-    "asset": {
+    "ai": {
+      "title": "Artificial Intelligence & Data",
+      "desc": "From solid data foundations to generative AI, we turn your information into automation, insight and real competitive advantage."
+    },
+    "cloud": {
+      "title": "Cloud Services",
+      "desc": "Migrate, modernise and run on the cloud with confidence — multi-cloud architecture, FinOps cost control and zero-downtime delivery."
+    },
+    "cyber": {
+      "title": "Cybersecurity",
+      "desc": "End-to-end protection: risk assessments, 24/7 threat monitoring, identity and compliance that stand up to real-world attacks."
+    },
+    "software": {
+      "title": "Software Engineering",
+      "desc": "Custom applications and legacy modernisation, built by senior engineers with DevOps, testing and quality baked in."
+    },
+    "managed": {
+      "title": "Managed IT & Service Desk",
+      "desc": "Round-the-clock, multi-region operations and a friendly service desk that keep every site online and every user productive."
+    },
+    "assets": {
       "title": "IT Asset Lifecycle Management",
-      "desc": "Procure, deploy, track and retire hardware globally — with full visibility and zero waste."
+      "desc": "Procure, deploy, track and retire hardware globally — full visibility, tight cost control and zero waste."
     },
     "staffing": {
       "title": "Global IT Staffing",
-      "desc": "On-demand certified engineers and specialists, matched to your stack and timezone."
+      "desc": "On-demand certified engineers and specialists, matched to your stack and timezone — for a project or the long term."
     },
-    "support": {
-      "title": "Global IT Support Services",
-      "desc": "Round-the-clock, multi-region support that keeps every site online and every user productive."
+    "engineering": {
+      "title": "Digital Engineering & IoT",
+      "desc": "Connected products, embedded systems and IoT platforms engineered for scale, safety and real-time control."
     },
-    "desk": {
-      "title": "Global Service Desk",
-      "desc": "A single, friendly point of contact — fast triage, real resolutions, measurable SLAs."
+    "platforms": {
+      "title": "Enterprise Platforms",
+      "desc": "Implementation and support across SAP, Microsoft, Salesforce, Oracle and ServiceNow — configured to how you actually work."
     },
-    "tag1": "Threat modelling",
-    "tag2": "Pen-testing",
-    "tag3": "Compliance"
+    "automation": {
+      "title": "Intelligent Automation",
+      "desc": "RPA, workflow automation and AI agents that remove manual effort and accelerate every process."
+    },
+    "experience": {
+      "title": "Customer Experience",
+      "desc": "Design-led digital products, commerce and marketing technology that turn customers into advocates."
+    }
+  },
+  "serviceDetails": {
+    "overview": "Overview",
+    "whatIncluded": "What's included",
+    "related": "Explore other services",
+    "ctaTitle": "Let's build it together",
+    "ctaBody": "Tell us your goal — we'll show you exactly how Techwelt can help, usually within 48 hours.",
+    "ctaButton": "Talk to an expert",
+    "strategy": {
+      "long": "Great technology starts with a clear plan. Our strategists work alongside your leadership to assess where you are, define where you want to be, and design a pragmatic roadmap that ties every technology decision to a measurable business outcome — no vanity projects, no jargon.",
+      "p1": "Digital and cloud transformation roadmaps",
+      "p2": "Technology due diligence and architecture review",
+      "p3": "Operating-model and cost optimisation",
+      "p4": "Business cases with clear ROI and milestones"
+    },
+    "ai": {
+      "long": "From the data foundations up, we help you turn raw information into decisions, automation and new products. Whether it's a predictive model, a modern data platform or a generative-AI assistant, we build it responsibly — secure, governed and measurable.",
+      "p1": "Data platforms, pipelines and governance",
+      "p2": "Machine learning and predictive analytics",
+      "p3": "Generative AI assistants and copilots",
+      "p4": "MLOps, monitoring and model assurance"
+    },
+    "cloud": {
+      "long": "We move you to the cloud without the drama. From assessment and landing zones to migration and day-two operations, our engineers design resilient, secure architectures and keep spend under control with FinOps discipline — so you only pay for what you use.",
+      "p1": "Cloud migration and modernisation",
+      "p2": "Multi-cloud and hybrid architecture",
+      "p3": "FinOps cost management",
+      "p4": "24/7 cloud operations and reliability"
+    },
+    "cyber": {
+      "long": "Security isn't a product you buy once — it's a posture you maintain. We assess your real-world risk, harden your environment, and watch your back around the clock, so a breach attempt becomes a non-event instead of a headline.",
+      "p1": "Cyber risk assessments and penetration testing",
+      "p2": "24/7 threat monitoring and response (SOC)",
+      "p3": "Identity and access management",
+      "p4": "Compliance: ISO 27001, GDPR, SOC 2"
+    },
+    "software": {
+      "long": "We design and build software that lasts — clean, tested and maintainable. Whether you need a new product, a legacy system modernised, or extra senior engineering capacity, we deliver with DevOps and quality engineering built in from day one.",
+      "p1": "Custom web and mobile applications",
+      "p2": "Legacy modernisation and re-platforming",
+      "p3": "APIs, integrations and microservices",
+      "p4": "DevOps, CI/CD and quality engineering"
+    },
+    "managed": {
+      "long": "Keep every site online and every user productive — without growing your internal team. Our follow-the-sun service desk and infrastructure operations handle the day-to-day, escalate intelligently, and report against SLAs you can trust.",
+      "p1": "24/7 multi-region service desk",
+      "p2": "Infrastructure monitoring and management",
+      "p3": "Endpoint and network operations",
+      "p4": "Transparent SLAs and reporting"
+    },
+    "assets": {
+      "long": "Know exactly what you own, where it is and what it costs. We manage hardware from procurement to secure disposal across every location — cutting waste, improving security, and giving finance a single source of truth.",
+      "p1": "Global procurement and provisioning",
+      "p2": "Asset tracking and inventory",
+      "p3": "Maintenance, refresh and warranty",
+      "p4": "Secure, compliant decommissioning"
+    },
+    "staffing": {
+      "long": "Get the right people, fast. We supply certified engineers and specialists who slot straight into your team — on your stack, in your timezone — whether you need one expert for a sprint or a whole squad for a programme.",
+      "p1": "Permanent and contract IT recruitment",
+      "p2": "Dedicated nearshore and offshore teams",
+      "p3": "Specialist and niche-skill sourcing",
+      "p4": "Vetted, certified professionals"
+    },
+    "engineering": {
+      "long": "We engineer the connected products and systems that move the physical world — from embedded firmware to IoT platforms and real-time control. Built for scale, safety and the harsh realities of production environments.",
+      "p1": "Embedded systems and firmware",
+      "p2": "IoT platforms and connectivity",
+      "p3": "Industrial and edge computing",
+      "p4": "Product engineering and prototyping"
+    },
+    "platforms": {
+      "long": "Get more from the platforms you already run. We implement, integrate and support SAP, Microsoft, Salesforce, Oracle and ServiceNow — configured around how your business actually works, not a generic template.",
+      "p1": "Implementation and configuration",
+      "p2": "Integration and data migration",
+      "p3": "Customisation and extension",
+      "p4": "Ongoing support and optimisation"
+    },
+    "automation": {
+      "long": "Free your people from repetitive work. We combine RPA, workflow automation and AI agents to take manual, error-prone processes off your team's plate — faster cycle times, fewer mistakes and measurable savings.",
+      "p1": "Robotic process automation (RPA)",
+      "p2": "Workflow and business-process automation",
+      "p3": "AI agents and document processing",
+      "p4": "Process discovery and optimisation"
+    },
+    "experience": {
+      "long": "Customers judge you by your digital experience. Our design-led teams craft the products, storefronts and journeys that turn first-time visitors into loyal advocates — beautiful, fast, accessible and built to convert.",
+      "p1": "UX/UI design and research",
+      "p2": "E-commerce and digital commerce",
+      "p3": "Web and mobile product design",
+      "p4": "Marketing technology and analytics"
+    }
   },
   "why": {
     "kicker": "Why choose us",
@@ -99,6 +217,17 @@
     "certifiedDesc": "Vendor-certified engineers and security specialists.",
     "industries": "Industries served",
     "industriesDesc": "From data centres to pharma to oil & gas."
+  },
+  "certifications": {
+    "kicker": "Trust & compliance",
+    "title": "Built on standards you can trust",
+    "subtitle": "Security and quality are engineered into everything we do, aligned with the frameworks your auditors expect.",
+    "i1": "ISO 27001-aligned",
+    "i2": "GDPR-ready",
+    "i3": "SOC 2 practices",
+    "i4": "Cyber Essentials",
+    "i5": "NIST framework",
+    "i6": "24/7 SOC monitoring"
   },
   "process": {
     "kicker": "How we work",
@@ -114,18 +243,30 @@
     "kicker": "Industry presence",
     "title": "Trusted where downtime isn't an option",
     "body": "Regulated, high-stakes sectors rely on us to keep critical systems secure and running — at any hour, in any region.",
-    "dataCenters": "Data Centers",
-    "dataCentersDesc": "Uptime-critical infrastructure & security.",
-    "manufacturing": "Manufacturing",
-    "manufacturingDesc": "OT/IT convergence done safely.",
+    "banking": "Banking & Financial Services",
+    "bankingDesc": "Secure, compliant, real-time platforms for modern finance.",
+    "healthcare": "Healthcare",
+    "healthcareDesc": "Connected, compliant care with patient data protected end to end.",
     "pharma": "Pharmaceuticals",
-    "pharmaDesc": "Compliant, validated environments.",
-    "retail": "Retail",
-    "retailDesc": "Always-on point-of-sale & data.",
+    "pharmaDesc": "Validated, compliant environments for research and production.",
+    "manufacturing": "Manufacturing",
+    "manufacturingDesc": "Safe OT/IT convergence and smart-factory operations.",
+    "retail": "Retail & E-commerce",
+    "retailDesc": "Always-on point-of-sale, online stores and customer data.",
+    "fmcg": "Consumer Goods (FMCG)",
+    "fmcgDesc": "Scale and supply-chain visibility that keep pace with demand.",
+    "energy": "Energy & Utilities",
+    "energyDesc": "Resilient, secure infrastructure for critical supply.",
     "oilGas": "Oil & Gas",
-    "oilGasDesc": "Resilient, remote-site operations.",
-    "fmcg": "FMCG",
-    "fmcgDesc": "Scale that keeps pace with demand."
+    "oilGasDesc": "Robust operations across remote, high-risk sites.",
+    "telecom": "Telecommunications",
+    "telecomDesc": "Carrier-grade reliability and scale for connectivity providers.",
+    "public": "Public Sector",
+    "publicDesc": "Citizen services that are secure, accessible and accountable.",
+    "logistics": "Logistics & Transport",
+    "logisticsDesc": "Real-time visibility across complex, moving supply chains.",
+    "dataCenters": "Data Centers",
+    "dataCentersDesc": "Uptime-critical infrastructure, security and capacity."
   },
   "testimonials": {
     "kicker": "Client stories",
@@ -200,6 +341,8 @@
     "message": "How can we help?",
     "messagePh": "Tell us about your IT or security challenge…",
     "submit": "Request my free assessment",
+    "sending": "Sending…",
+    "errorBody": "Please add your name, a valid email and a message.",
     "privacy": "No spam, ever. We'll only use your details to respond to your enquiry.",
     "successTitle": "Thank you!",
     "successBody": "Your request is in. A specialist will reach out within one business day."
@@ -221,6 +364,53 @@
     "terms": "Terms",
     "rights": "All rights reserved.",
     "backToTop": "Back to top"
+  },
+  "careers": {
+    "kicker": "Careers",
+    "title": "Build the technology that runs the world",
+    "subtitle": "We're a global team of engineers, strategists and problem-solvers. If you love hard problems and great teammates, you'll fit right in.",
+    "perksTitle": "Why Techwelt",
+    "perk1Title": "Global, remote-first",
+    "perk1": "Work with colleagues and clients across the UK, Italy, Germany and the UAE.",
+    "perk2Title": "Real impact",
+    "perk2": "Ship work that keeps critical systems secure and running for enterprises worldwide.",
+    "perk3Title": "Grow fast",
+    "perk3": "Certifications, mentorship and a clear path — we invest in your development.",
+    "perk4Title": "Great people",
+    "perk4": "Senior, supportive teammates who care about their craft and each other.",
+    "openTitle": "Open positions",
+    "openBody": "We're always looking for exceptional engineers, security specialists and consultants. Don't see your role? Introduce yourself anyway.",
+    "cta": "Send us your CV"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "Techwelt respects your privacy. This policy explains what information we collect, how we use it, and the choices you have. It applies to techweltit.com and our services.",
+    "s1Title": "Information we collect",
+    "s1Body": "We collect the details you provide through our contact forms — such as your name, email, company and message — and basic technical data (like your approximate country) needed to operate the site.",
+    "s2Title": "How we use it",
+    "s2Body": "We use your information solely to respond to your enquiries, provide our services, and improve our website. We do not sell your personal data.",
+    "s3Title": "Data sharing & storage",
+    "s3Body": "Your data is stored securely and processed by trusted providers acting on our behalf. We retain it only as long as necessary to fulfil the purposes described here.",
+    "s4Title": "Your rights",
+    "s4Body": "You have the right to access, correct or delete your personal data, and to object to its processing. To exercise these rights, contact us using the details below.",
+    "contactTitle": "Contact us",
+    "contactBody": "For any privacy question, email {email}.",
+    "updated": "Last updated"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "These terms govern your use of the Techwelt website. By using the site, you agree to them.",
+    "s1Title": "Use of the site",
+    "s1Body": "You may use this website for lawful purposes only. You agree not to misuse it, attempt to gain unauthorised access, or disrupt its operation.",
+    "s2Title": "Intellectual property",
+    "s2Body": "All content on this site — text, graphics, logos and code — is owned by Techwelt or its licensors and may not be reproduced without permission.",
+    "s3Title": "No warranty",
+    "s3Body": "The website is provided 'as is'. While we work hard to keep it accurate and available, we make no warranties and are not liable for any loss arising from its use.",
+    "s4Title": "Changes",
+    "s4Body": "We may update these terms or the site at any time. Continued use after changes constitutes acceptance of the revised terms.",
+    "contactTitle": "Contact us",
+    "contactBody": "Questions about these terms? Email {email}.",
+    "updated": "Last updated"
   },
   "metadata": {
     "title": "Techwelt — Enterprise IT, Cybersecurity & Global Talent",

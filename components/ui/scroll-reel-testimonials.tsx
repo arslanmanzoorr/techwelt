@@ -74,6 +74,7 @@ function Featured({ src, alt }: { src: string; alt?: string }) {
       className="relative shrink-0 overflow-hidden rounded-xl bg-muted dark:ring-1 dark:ring-white/10"
       style={{ width: CELL, height: CELL, boxShadow: FEATURED_SHADOW }}
     >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={src}
         alt={alt ?? ""}
@@ -164,12 +165,13 @@ export function ScrollReelTestimonials({
   React.useEffect(() => {
     /* Enable column transitions only after first paint so the reel
      * appears at its starting offset without a slide-in. */
+    const pending = timeouts.current;
     const raf = requestAnimationFrame(() =>
       requestAnimationFrame(() => setMounted(true))
     );
     return () => {
       cancelAnimationFrame(raf);
-      timeouts.current.forEach(clearTimeout);
+      pending.forEach(clearTimeout);
     };
   }, []);
 

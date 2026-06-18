@@ -90,8 +90,7 @@ async function uniqueSlug(base: string, excludeId?: number): Promise<string> {
   if (!sql) return base;
   let slug = base;
   let n = 1;
-  // eslint-disable-next-line no-constant-condition
-  while (true) {
+  for (;;) {
     const rows = excludeId
       ? await sql`SELECT id FROM news_posts WHERE slug = ${slug} AND id <> ${excludeId} LIMIT 1`
       : await sql`SELECT id FROM news_posts WHERE slug = ${slug} LIMIT 1`;
@@ -131,4 +130,63 @@ export async function deletePost(id: number): Promise<void> {
   if (!sql) throw new Error("Database not configured");
   await ensureTable();
   await sql`DELETE FROM news_posts WHERE id = ${id}`;
+}
+
+/* ── Contact submissions ─────────────────────────────────────────────────── */
+
+export interface ContactSubmission {
+  id: number;
+  name: string;
+  email: string;
+  company: string;
+  phone: string;
+  message: string;
+  country: string;
+  locale: string;
+  created_at: string;
+}
+
+export type ContactInput = {
+  name: string;
+  email: string;
+  company: string;
+  phone: string;
+  message: string;
+  country: string;
+  locale: string;
+};
+
+let contactEnsured = false;
+async function ensureContactTable() {
+  if (!sql || contactEnsured) return;
+  await sql`
+    CREATE TABLE IF NOT EXISTS contact_submissions (
+      id SERIAL PRIMARY KEY,
+      name TEXT NOT NULL,
+      email TEXT NOT NULL,
+      company TEXT NOT NULL DEFAULT '',
+      phone TEXT NOT NULL DEFAULT '',
+      message TEXT NOT NULL DEFAULT '',
+      country TEXT NOT NULL DEFAULT '',
+      locale TEXT NOT NULL DEFAULT '',
+      created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    )
+  `;
+  contactEnsured = true;
+}
+
+export async function createSubmission(input: ContactInput): Promise<void> {
+  if (!sql) return; // degrade gracefully when no DB
+  await ensureContactTable();
+  await sql`
+    INSERT INTO contact_submissions (name, email, company, phone, message, country, locale)
+    VALUES (${input.name}, ${input.email}, ${input.company}, ${input.phone}, ${input.message}, ${input.country}, ${input.locale})
+  `;
+}
+
+export async function listSubmissions(): Promise<ContactSubmission[]> {
+  if (!sql) return [];
+  await ensureContactTable();
+  const rows = await sql`SELECT * FROM contact_submissions ORDER BY created_at DESC`;
+  return rows as ContactSubmission[];
 }

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { Reveal } from "./motion";
 import { ScrollReelTestimonials, type ScrollReelTestimonial } from "./ui/scroll-reel-testimonials";
 
-const PORTRAIT = "?auto=format&fit=crop&w=256&h=256&q=80&crop=faces";
+const PORTRAIT = "?auto=format&fit=crop&w=320&h=320&q=85&crop=faces";
 
 const images = [
   "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { adminConfigured, isAuthed } from "@/lib/auth";
 import { loginAction } from "../actions";
@@ -59,7 +60,7 @@ export default async function AdminLogin({
         </div>
 
         <p className="mt-6 text-center text-sm text-ink-3">
-          <a href="/" className="hover:text-white">← Back to site</a>
+          <Link href="/" className="hover:text-white">← Back to site</Link>
         </p>
       </div>
     </main>

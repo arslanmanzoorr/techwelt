@@ -1,15 +1,21 @@
 "use client";
 
-import { useState } from "react";
-import { Mail, Phone, MapPin, ArrowRight, Check } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useActionState } from "react";
+import { Mail, Phone, MapPin, ArrowRight, Check, Loader2 } from "lucide-react";
+import { useTranslations, useLocale } from "next-intl";
 import { Reveal } from "./motion";
 import { useEntity } from "./EntityProvider";
+import { submitContact, type ContactState } from "@/app/actions/contact";
 
 export default function Contact() {
   const t = useTranslations();
+  const locale = useLocale();
   const { entity, country } = useEntity();
-  const [sent, setSent] = useState(false);
+  const [state, formAction, pending] = useActionState<ContactState, FormData>(
+    submitContact,
+    { ok: false }
+  );
+  const sent = state.ok;
 
   const telHref = entity.phone ? `tel:${entity.phone.replace(/[^+\d]/g, "")}` : undefined;
 
@@ -84,14 +90,15 @@ export default function Contact() {
               <p className="mt-2 max-w-xs text-ink-2">{t("contact.successBody")}</p>
             </div>
           ) : (
-            <form onSubmit={(e) => { e.preventDefault(); setSent(true); }} className="space-y-4">
+            <form action={formAction} className="space-y-4">
+              <input type="hidden" name="locale" value={locale} />
               <div className="grid gap-4 sm:grid-cols-2">
                 <Field label={t("contact.name")} name="name" placeholder={t("contact.namePh")} />
                 <Field label={t("contact.email")} name="email" type="email" placeholder={t("contact.emailPh")} />
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 <Field label={t("contact.company")} name="company" placeholder={t("contact.companyPh")} />
-                <Field label={t("contact.phone")} name="phone" type="tel" placeholder={t("contact.phonePh")} required={false} />
+                <Field label={t("contact.phone")} name="phone" type="tel" placeholder={`${entity.dialCode} …`} required={false} />
               </div>
               <div>
                 <label className="mb-1.5 block text-sm font-medium text-ink-2">{t("contact.message")}</label>
@@ -103,9 +110,24 @@ export default function Contact() {
                   className="w-full rounded-xl border border-white/12 bg-white/5 px-4 py-3 text-white outline-none transition-colors placeholder:text-ink-3 focus:border-brand-teal focus:bg-white/10"
                 />
               </div>
-              <button type="submit" className="group flex w-full items-center justify-center gap-2 rounded-full bg-white px-7 py-4 font-semibold text-brand-ink transition-colors hover:bg-brand-blue hover:text-white">
-                {t("contact.submit")}
-                <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+              {state.error && (
+                <p className="text-sm text-red-300">{t("contact.errorBody")}</p>
+              )}
+              <button
+                type="submit"
+                disabled={pending}
+                className="group flex w-full items-center justify-center gap-2 rounded-full bg-white px-7 py-4 font-semibold text-brand-ink transition-colors hover:bg-brand-blue hover:text-white disabled:opacity-70"
+              >
+                {pending ? (
+                  <>
+                    <Loader2 className="h-5 w-5 animate-spin" /> {t("contact.sending")}
+                  </>
+                ) : (
+                  <>
+                    {t("contact.submit")}
+                    <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </>
+                )}
               </button>
               <p className="text-center text-xs text-ink-3">{t("contact.privacy")}</p>
             </form>

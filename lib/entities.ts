@@ -21,6 +21,8 @@ export interface Entity {
   /** English country name; the displayed label is localized via messages. */
   name: string;
   city: string;
+  /** International dialing code, e.g. "+44". Used for the phone-field placeholder. */
+  dialCode: string;
   addressLines: string[];
   /** Leave empty until a real number is provided — the call row is hidden. */
   phone?: string;
@@ -35,6 +37,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     legalName: "TechWelt IT Professionals Ltd",
     name: "United Kingdom",
     city: "Manchester",
+    dialCode: "+44",
     addressLines: ["11 Milltown Street, Radcliffe", "Manchester M26 1WD, UK"],
     phone: "", // TODO: add a dedicated UK number
     email: "support@techweltit.com",
@@ -45,6 +48,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     legalName: "TechWelt SRL",
     name: "Italy",
     city: "Rome",
+    dialCode: "+39",
     addressLines: ["Via Aversa 15", "00177 Rome, Italy"],
     phone: "+39 350 938 8630",
     phoneAlt: "+39 329 306 3324",
@@ -56,6 +60,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     legalName: "TechWelt",
     name: "Germany",
     city: "Straßlach-Dingharting",
+    dialCode: "+49",
     addressLines: ["Gewerbestraße 13", "82064 Straßlach-Dingharting, Germany"],
     phone: "", // TODO: add a German number
     email: "support@techweltit.com",
@@ -66,6 +71,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     legalName: "TechWelt L.L.C-FZ",
     name: "United Arab Emirates",
     city: "Dubai",
+    dialCode: "+971",
     addressLines: ["Meydan Grandstand, 6th floor", "Meydan Road, Nad Al Sheba, Dubai"],
     phone: "", // TODO: add a UAE number
     email: "support@techweltit.com",

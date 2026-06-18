@@ -5,6 +5,7 @@ import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import Certifications from "@/components/Certifications";
 import Process from "@/components/Process";
 import Industries from "@/components/Industries";
 import Testimonials from "@/components/Testimonials";
@@ -33,6 +34,7 @@ export default async function Home({
       <About />
       <Services />
       <WhyUs />
+      <Certifications />
       <Process />
       <Industries />
       <Testimonials />

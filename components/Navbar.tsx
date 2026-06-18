@@ -6,9 +6,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, ArrowUpRight, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { SERVICE_SLUGS } from "@/lib/services";
 import RegionSwitcher from "./RegionSwitcher";
 
-const serviceKeys = ["cyber", "asset", "staffing", "support", "desk"] as const;
+const serviceKeys = [
+  "strategy", "ai", "cloud", "cyber",
+  "software", "managed", "platforms", "automation",
+] as const;
 
 export default function Navbar() {
   const t = useTranslations();
@@ -66,13 +70,16 @@ export default function Navbar() {
                     </p>
                     <div className="grid grid-cols-2 gap-1">
                       {serviceKeys.map((k) => (
-                        <Link key={k} href="/services" className="group rounded-xl px-3 py-2.5 transition-colors hover:bg-white/5">
+                        <Link key={k} href={`/services/${SERVICE_SLUGS[k]}`} className="group rounded-xl px-3 py-2.5 transition-colors hover:bg-white/5">
                           <span className="block text-sm font-semibold text-white group-hover:text-brand-teal">
                             {t(`services.${k}.title`)}
                           </span>
                         </Link>
                       ))}
                     </div>
+                    <Link href="/services" className="mt-1 flex items-center gap-1 rounded-xl px-3 py-2.5 text-sm font-semibold text-brand-teal transition-colors hover:bg-white/5">
+                      {t("services.viewAll")} <ChevronDown className="h-3.5 w-3.5 -rotate-90" />
+                    </Link>
                   </div>
                 </motion.div>
               )}

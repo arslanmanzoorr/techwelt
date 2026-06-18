@@ -4,6 +4,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "./motion";
 
 const keys = ["1", "2", "3", "4", "5"] as const;
@@ -28,9 +29,9 @@ export default function Faq() {
             <p className="mt-4 text-ink-2">{t("faq.body")}</p>
           </Reveal>
           <Reveal delay={0.15}>
-            <a href="#contact" className="mt-6 inline-flex rounded-full bg-white px-6 py-3 font-semibold text-brand-ink transition-colors hover:bg-brand-blue hover:text-white">
+            <Link href="/contact" className="mt-6 inline-flex rounded-full bg-white px-6 py-3 font-semibold text-brand-ink transition-colors hover:bg-brand-blue hover:text-white">
               {t("faq.cta")}
-            </a>
+            </Link>
           </Reveal>
         </div>
 

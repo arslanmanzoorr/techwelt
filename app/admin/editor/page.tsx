@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import Link from "next/link";
 import { isAuthed } from "@/lib/auth";
 import { getById } from "@/lib/db";
 import { EditorForm } from "./EditorForm";
@@ -18,7 +19,7 @@ export default async function EditorPage({
     <main className="mx-auto max-w-4xl px-5 py-10">
       <div className="mb-8 flex items-center justify-between">
         <h1 className="font-display text-2xl font-extrabold">{post ? "Edit post" : "New post"}</h1>
-        <a href="/admin" className="text-sm text-ink-3 hover:text-white">← Back to dashboard</a>
+        <Link href="/admin" className="text-sm text-ink-3 hover:text-white">← Back to dashboard</Link>
       </div>
       <EditorForm post={post} />
     </main>

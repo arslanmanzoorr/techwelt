@@ -95,7 +95,7 @@ export default function Hero() {
           {/* image tile */}
           <div className="tile col-span-2 row-span-2 p-0">
             <Image
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1100&q=80"
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85"
               alt=""
               fill
               priority

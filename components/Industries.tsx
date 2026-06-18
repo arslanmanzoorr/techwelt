@@ -1,16 +1,25 @@
 "use client";
 
-import { Server, Factory, Pill, ShoppingBag, Fuel, Package } from "lucide-react";
+import {
+  Landmark, HeartPulse, Pill, Factory, ShoppingBag, Package,
+  Zap, Fuel, RadioTower, Building2, Truck, Server,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "./motion";
 
 const items = [
-  { icon: Server, key: "dataCenters", glow: "glow-blue", accent: "text-brand-blue" },
-  { icon: Factory, key: "manufacturing", glow: "glow-teal", accent: "text-brand-teal" },
-  { icon: Pill, key: "pharma", glow: "glow-magenta", accent: "text-brand-magenta" },
-  { icon: ShoppingBag, key: "retail", glow: "glow-orange", accent: "text-brand-orange" },
-  { icon: Fuel, key: "oilGas", glow: "glow-amber", accent: "text-brand-amber" },
-  { icon: Package, key: "fmcg", glow: "glow-blue", accent: "text-brand-blue" },
+  { key: "banking", icon: Landmark, glow: "glow-blue", accent: "text-brand-blue" },
+  { key: "healthcare", icon: HeartPulse, glow: "glow-teal", accent: "text-brand-teal" },
+  { key: "pharma", icon: Pill, glow: "glow-magenta", accent: "text-brand-magenta" },
+  { key: "manufacturing", icon: Factory, glow: "glow-orange", accent: "text-brand-orange" },
+  { key: "retail", icon: ShoppingBag, glow: "glow-blue", accent: "text-brand-blue" },
+  { key: "fmcg", icon: Package, glow: "glow-amber", accent: "text-brand-amber" },
+  { key: "energy", icon: Zap, glow: "glow-teal", accent: "text-brand-teal" },
+  { key: "oilGas", icon: Fuel, glow: "glow-orange", accent: "text-brand-orange" },
+  { key: "telecom", icon: RadioTower, glow: "glow-magenta", accent: "text-brand-magenta" },
+  { key: "public", icon: Building2, glow: "glow-blue", accent: "text-brand-blue" },
+  { key: "logistics", icon: Truck, glow: "glow-amber", accent: "text-brand-amber" },
+  { key: "dataCenters", icon: Server, glow: "glow-teal", accent: "text-brand-teal" },
 ] as const;
 
 export default function Industries() {
@@ -35,12 +44,16 @@ export default function Industries() {
           </Reveal>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {items.map((it, i) => (
-            <Reveal key={it.key} delay={i * 0.06} className={`tile tile-glow ${it.glow} group p-7`}>
-              <it.icon className={`h-9 w-9 ${it.accent} transition-transform duration-300 group-hover:-translate-y-1`} strokeWidth={1.5} />
-              <h3 className="mt-5 font-display text-xl font-bold text-white">{t(`industries.${it.key}`)}</h3>
-              <p className="mt-2 text-sm text-ink-3">{t(`industries.${it.key}Desc`)}</p>
+            <Reveal
+              key={it.key}
+              delay={(i % 4) * 0.05}
+              className={`tile tile-glow ${it.glow} group p-6`}
+            >
+              <it.icon className={`h-8 w-8 ${it.accent} transition-transform duration-300 group-hover:-translate-y-1`} strokeWidth={1.5} />
+              <h3 className="mt-4 font-display text-lg font-bold text-white">{t(`industries.${it.key}`)}</h3>
+              <p className="mt-1.5 text-sm text-ink-3">{t(`industries.${it.key}Desc`)}</p>
             </Reveal>
           ))}
         </div>

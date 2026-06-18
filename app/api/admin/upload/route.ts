@@ -30,9 +30,9 @@ export async function POST(request: Request): Promise<NextResponse> {
           addRandomSuffix: true,
         };
       },
-      onUploadCompleted: async () => {
-        // No-op: the URL is returned to the client, which stores it on the post.
-      },
+      // No onUploadCompleted: the browser receives the blob URL directly and
+      // stores it on the post. Omitting it avoids the Ed25519 webhook callback
+      // (BLOB_WEBHOOK_PUBLIC_KEY), which can't reach localhost and isn't needed.
     });
 
     return NextResponse.json(jsonResponse);

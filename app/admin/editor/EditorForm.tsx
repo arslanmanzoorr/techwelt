@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { upload } from "@vercel/blob/client";
@@ -133,7 +134,7 @@ export function EditorForm({ post }: { post: NewsPost | null }) {
         <button type="submit" className="rounded-full bg-white px-7 py-3 font-semibold text-brand-ink transition-colors hover:bg-brand-blue hover:text-white">
           {post ? "Save changes" : "Create post"}
         </button>
-        <a href="/admin" className="rounded-full px-5 py-3 text-sm font-medium text-ink-3 hover:text-white">Cancel</a>
+        <Link href="/admin" className="rounded-full px-5 py-3 text-sm font-medium text-ink-3 hover:text-white">Cancel</Link>
       </div>
     </form>
   );

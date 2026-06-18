@@ -15,7 +15,7 @@ export default function About() {
         <Reveal className="order-2 lg:order-1">
           <div className="tile relative aspect-[4/3] p-0">
             <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1100&q=80"
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=85"
               alt=""
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
