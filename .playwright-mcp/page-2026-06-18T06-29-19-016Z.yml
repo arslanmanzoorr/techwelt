@@ -1,0 +1,579 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Techwelt Techwelt" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Techwelt" [ref=e6]
+        - generic [ref=e7]: Techwelt
+      - generic [ref=e8]:
+        - button "Services" [ref=e10]:
+          - text: Services
+          - img [ref=e11]
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: /about
+        - link "Industries" [ref=e14] [cursor=pointer]:
+          - /url: /industries
+        - link "News" [ref=e15] [cursor=pointer]:
+          - /url: /news
+        - link "FAQs" [ref=e16] [cursor=pointer]:
+          - /url: /faqs
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e18]:
+        - button "Country & language" [ref=e21]:
+          - img [ref=e22]
+          - generic [ref=e25]: GB
+          - generic [ref=e26]: ·
+          - generic [ref=e27]: en
+          - img [ref=e28]
+        - link "Get a free assessment" [ref=e30] [cursor=pointer]:
+          - /url: /contact
+          - text: Get a free assessment
+          - img [ref=e31]
+    - generic [ref=e35]:
+      - generic [ref=e36]: Enterprise IT · Cybersecurity · Global talent
+      - heading "Reinventing how your technology works" [level=1] [ref=e40]
+      - paragraph [ref=e41]: We deliver innovative IT support, cybersecurity and global staffing — keeping your operations seamless, secure and ready for whatever comes next.
+      - generic [ref=e42]:
+        - link "Get a free assessment" [ref=e43] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Get a free assessment
+          - img [ref=e44]
+        - link "Explore our services" [ref=e46] [cursor=pointer]:
+          - /url: "#services"
+          - generic [ref=e47]: Explore our services
+          - img [ref=e48]
+      - paragraph [ref=e50]:
+        - img [ref=e51]
+        - text: ISO-aligned processes · Certified professionals · GDPR-ready
+      - generic [ref=e54]:
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: What we do
+          - paragraph [ref=e59]: Enterprise IT · Cybersecurity · Global talent
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: 0%
+          - paragraph [ref=e62]: Client satisfaction
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: 0/7
+          - paragraph [ref=e65]: Global support
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: "0"
+          - paragraph [ref=e68]: Countries
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: 0+
+          - paragraph [ref=e71]: Years of expertise
+    - generic [ref=e72]:
+      - paragraph [ref=e73]: Platforms & technologies we manage every day
+      - generic [ref=e75]:
+        - generic [ref=e76]: Microsoft 365
+        - generic [ref=e77]: Azure
+        - generic [ref=e78]: AWS
+        - generic [ref=e79]: Cisco
+        - generic [ref=e80]: Fortinet
+        - generic [ref=e81]: VMware
+        - generic [ref=e82]: CrowdStrike
+        - generic [ref=e83]: ServiceNow
+        - generic [ref=e84]: Okta
+        - generic [ref=e85]: Veeam
+        - generic [ref=e86]: SentinelOne
+        - generic [ref=e87]: Google Cloud
+        - generic [ref=e88]: Microsoft 365
+        - generic [ref=e89]: Azure
+        - generic [ref=e90]: AWS
+        - generic [ref=e91]: Cisco
+        - generic [ref=e92]: Fortinet
+        - generic [ref=e93]: VMware
+        - generic [ref=e94]: CrowdStrike
+        - generic [ref=e95]: ServiceNow
+        - generic [ref=e96]: Okta
+        - generic [ref=e97]: Veeam
+        - generic [ref=e98]: SentinelOne
+        - generic [ref=e99]: Google Cloud
+    - generic [ref=e105]:
+      - generic [ref=e106]: Who we are
+      - heading "Technology that moves with your business" [level=2] [ref=e108]
+      - paragraph [ref=e110]: Techwelt exists to make enterprise technology feel effortless. We blend deep security expertise, disciplined IT operations and a global talent network into one team that quietly keeps you running — and ready for what's next.
+      - list [ref=e111]:
+        - listitem [ref=e112]:
+          - img [ref=e114]
+          - generic [ref=e116]: A single accountable partner across IT, security and talent
+        - listitem [ref=e117]:
+          - img [ref=e119]
+          - generic [ref=e121]: Engineers embedded in your timezone, on your stack
+        - listitem [ref=e122]:
+          - img [ref=e124]
+          - generic [ref=e126]: Transparent SLAs and reporting you can take to the board
+      - link "See how we work" [ref=e128] [cursor=pointer]:
+        - /url: "#process"
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: What we do
+        - heading "One partner for every layer of your IT" [level=2] [ref=e134]
+        - paragraph [ref=e136]: From the boardroom risk register to the service desk ticket — Techwelt covers the full stack so your team can focus on the business.
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - img [ref=e140]
+          - heading "Cyber Risk Assessments" [level=3] [ref=e142]
+          - paragraph [ref=e143]: We map your attack surface, expose vulnerabilities before adversaries do, and hand you a prioritised, board-ready remediation plan.
+          - generic [ref=e144]:
+            - generic [ref=e145]: Threat modelling
+            - generic [ref=e146]: Pen-testing
+            - generic [ref=e147]: Compliance
+          - link "Learn more" [ref=e148] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Learn more
+            - img [ref=e149]
+        - generic [ref=e152]:
+          - img [ref=e154]
+          - heading "IT Asset Lifecycle Management" [level=3] [ref=e161]
+          - paragraph [ref=e162]: Procure, deploy, track and retire hardware globally — with full visibility and zero waste.
+          - link "Learn more" [ref=e163] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Learn more
+            - img [ref=e164]
+        - generic [ref=e167]:
+          - img [ref=e169]
+          - heading "Global IT Staffing" [level=3] [ref=e174]
+          - paragraph [ref=e175]: On-demand certified engineers and specialists, matched to your stack and timezone.
+          - link "Learn more" [ref=e176] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Learn more
+            - img [ref=e177]
+        - generic [ref=e180]:
+          - img [ref=e182]
+          - heading "Global IT Support Services" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Round-the-clock, multi-region support that keeps every site online and every user productive.
+          - link "Learn more" [ref=e187] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Learn more
+            - img [ref=e188]
+        - generic [ref=e191]:
+          - img [ref=e193]
+          - heading "Global Service Desk" [level=3] [ref=e200]
+          - paragraph [ref=e201]: A single, friendly point of contact — fast triage, real resolutions, measurable SLAs.
+          - link "Learn more" [ref=e202] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Learn more
+            - img [ref=e203]
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e209]: Why choose us
+        - heading "The numbers behind the calm" [level=2] [ref=e211]
+        - paragraph [ref=e213]: We don't ask you to take reliability on faith — we measure it, report it, and stand behind it.
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - img [ref=e216]
+          - paragraph [ref=e218]: 0%
+          - paragraph [ref=e219]: Client satisfaction
+          - paragraph [ref=e220]: Measured across every engagement, every quarter.
+        - generic [ref=e221]:
+          - img [ref=e222]
+          - paragraph [ref=e225]: 0/7
+          - paragraph [ref=e226]: Support coverage
+          - paragraph [ref=e227]: Follow-the-sun service that never sleeps.
+        - generic [ref=e228]:
+          - img [ref=e229]
+          - paragraph [ref=e232]: 0+
+          - paragraph [ref=e233]: Certified professionals
+          - paragraph [ref=e234]: Vendor-certified engineers and security specialists.
+        - generic [ref=e235]:
+          - img [ref=e236]
+          - paragraph [ref=e241]: "0"
+          - paragraph [ref=e242]: Industries served
+          - paragraph [ref=e243]: From data centres to pharma to oil & gas.
+    - generic [ref=e245]:
+      - generic [ref=e246]:
+        - generic [ref=e247]: How we work
+        - heading "A process built for trust" [level=2] [ref=e249]
+      - generic [ref=e250]:
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - img [ref=e254]
+            - generic [ref=e257]: "01"
+          - heading "Consultation" [level=3] [ref=e258]
+          - paragraph [ref=e259]: We listen first. A deep discovery of your systems, risks and goals — no assumptions, no jargon.
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - img [ref=e263]
+            - generic [ref=e267]: "02"
+          - heading "Implementation Strategy" [level=3] [ref=e268]
+          - paragraph [ref=e269]: A tailored roadmap with clear milestones, owners and measurable outcomes — built around your reality.
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img [ref=e273]
+            - generic [ref=e278]: "03"
+          - heading "Ongoing Support" [level=3] [ref=e279]
+          - paragraph [ref=e280]: Proactive monitoring, continuous improvement and a team that stays accountable long after go-live.
+    - generic [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]: Industry presence
+          - heading "Trusted where downtime isn't an option" [level=2] [ref=e287]
+        - paragraph [ref=e289]: Regulated, high-stakes sectors rely on us to keep critical systems secure and running — at any hour, in any region.
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - img [ref=e292]
+          - heading "Data Centers" [level=3] [ref=e295]
+          - paragraph [ref=e296]: Uptime-critical infrastructure & security.
+        - generic [ref=e297]:
+          - img [ref=e298]
+          - heading "Manufacturing" [level=3] [ref=e300]
+          - paragraph [ref=e301]: OT/IT convergence done safely.
+        - generic [ref=e302]:
+          - img [ref=e303]
+          - heading "Pharmaceuticals" [level=3] [ref=e306]
+          - paragraph [ref=e307]: Compliant, validated environments.
+        - generic [ref=e308]:
+          - img [ref=e309]
+          - heading "Retail" [level=3] [ref=e312]
+          - paragraph [ref=e313]: Always-on point-of-sale & data.
+        - generic [ref=e314]:
+          - img [ref=e315]
+          - heading "Oil & Gas" [level=3] [ref=e318]
+          - paragraph [ref=e319]: Resilient, remote-site operations.
+        - generic [ref=e320]:
+          - img [ref=e321]
+          - heading "FMCG" [level=3] [ref=e325]
+          - paragraph [ref=e326]: Scale that keeps pace with demand.
+    - generic [ref=e328]:
+      - generic [ref=e329]:
+        - generic [ref=e330]: Client stories
+        - heading "Loved by the teams we keep running" [level=2] [ref=e332]
+        - paragraph [ref=e334]: Use the arrows to scroll the reel — real outcomes from the businesses we support.
+      - region "Testimonials" [ref=e336]:
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - img [ref=e391]
+            - generic [ref=e394]:
+              - paragraph [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: T
+                  - generic [ref=e398]: e
+                  - generic [ref=e399]: c
+                  - generic [ref=e400]: h
+                  - generic [ref=e401]: w
+                  - generic [ref=e402]: e
+                  - generic [ref=e403]: l
+                  - generic [ref=e404]: t
+                - generic [ref=e405]:
+                  - generic [ref=e406]: t
+                  - generic [ref=e407]: o
+                  - generic [ref=e408]: o
+                  - generic [ref=e409]: k
+                - generic [ref=e410]:
+                  - generic [ref=e411]: o
+                  - generic [ref=e412]: u
+                  - generic [ref=e413]: r
+                - generic [ref=e414]:
+                  - generic [ref=e415]: s
+                  - generic [ref=e416]: e
+                  - generic [ref=e417]: r
+                  - generic [ref=e418]: v
+                  - generic [ref=e419]: i
+                  - generic [ref=e420]: c
+                  - generic [ref=e421]: e
+                - generic [ref=e422]:
+                  - generic [ref=e423]: d
+                  - generic [ref=e424]: e
+                  - generic [ref=e425]: s
+                  - generic [ref=e426]: k
+                - generic [ref=e427]:
+                  - generic [ref=e428]: f
+                  - generic [ref=e429]: r
+                  - generic [ref=e430]: o
+                  - generic [ref=e431]: m
+                - generic [ref=e433]: a
+                - generic [ref=e434]:
+                  - generic [ref=e435]: d
+                  - generic [ref=e436]: a
+                  - generic [ref=e437]: i
+                  - generic [ref=e438]: l
+                  - generic [ref=e439]: "y"
+                - generic [ref=e440]:
+                  - generic [ref=e441]: f
+                  - generic [ref=e442]: i
+                  - generic [ref=e443]: r
+                  - generic [ref=e444]: e
+                  - generic [ref=e445]: f
+                  - generic [ref=e446]: i
+                  - generic [ref=e447]: g
+                  - generic [ref=e448]: h
+                  - generic [ref=e449]: t
+                - generic [ref=e450]:
+                  - generic [ref=e451]: t
+                  - generic [ref=e452]: o
+                - generic [ref=e453]:
+                  - generic [ref=e454]: s
+                  - generic [ref=e455]: o
+                  - generic [ref=e456]: m
+                  - generic [ref=e457]: e
+                  - generic [ref=e458]: t
+                  - generic [ref=e459]: h
+                  - generic [ref=e460]: i
+                  - generic [ref=e461]: "n"
+                  - generic [ref=e462]: g
+                - generic [ref=e463]:
+                  - generic [ref=e464]: w
+                  - generic [ref=e465]: e
+                - generic [ref=e466]:
+                  - generic [ref=e467]: g
+                  - generic [ref=e468]: e
+                  - generic [ref=e469]: "n"
+                  - generic [ref=e470]: u
+                  - generic [ref=e471]: i
+                  - generic [ref=e472]: "n"
+                  - generic [ref=e473]: e
+                  - generic [ref=e474]: l
+                  - generic [ref=e475]: "y"
+                - generic [ref=e476]:
+                  - generic [ref=e477]: d
+                  - generic [ref=e478]: o
+                  - generic [ref=e479]: "n"
+                  - generic [ref=e480]: "'"
+                  - generic [ref=e481]: t
+                - generic [ref=e482]:
+                  - generic [ref=e483]: t
+                  - generic [ref=e484]: h
+                  - generic [ref=e485]: i
+                  - generic [ref=e486]: "n"
+                  - generic [ref=e487]: k
+                - generic [ref=e488]:
+                  - generic [ref=e489]: a
+                  - generic [ref=e490]: b
+                  - generic [ref=e491]: o
+                  - generic [ref=e492]: u
+                  - generic [ref=e493]: t
+                - generic [ref=e494]:
+                  - generic [ref=e495]: a
+                  - generic [ref=e496]: "n"
+                  - generic [ref=e497]: "y"
+                  - generic [ref=e498]: m
+                  - generic [ref=e499]: o
+                  - generic [ref=e500]: r
+                  - generic [ref=e501]: e
+                  - generic [ref=e502]: .
+              - paragraph [ref=e503]:
+                - generic [ref=e504]:
+                  - generic [ref=e505]: O
+                  - generic [ref=e506]: p
+                  - generic [ref=e507]: e
+                  - generic [ref=e508]: r
+                  - generic [ref=e509]: a
+                  - generic [ref=e510]: t
+                  - generic [ref=e511]: i
+                  - generic [ref=e512]: o
+                  - generic [ref=e513]: "n"
+                  - generic [ref=e514]: s
+                - generic [ref=e515]:
+                  - generic [ref=e516]: D
+                  - generic [ref=e517]: i
+                  - generic [ref=e518]: r
+                  - generic [ref=e519]: e
+                  - generic [ref=e520]: c
+                  - generic [ref=e521]: t
+                  - generic [ref=e522]: o
+                  - generic [ref=e523]: r
+                - generic [ref=e525]: ·
+                - generic [ref=e526]:
+                  - generic [ref=e527]: M
+                  - generic [ref=e528]: a
+                  - generic [ref=e529]: "n"
+                  - generic [ref=e530]: u
+                  - generic [ref=e531]: f
+                  - generic [ref=e532]: a
+                  - generic [ref=e533]: c
+                  - generic [ref=e534]: t
+                  - generic [ref=e535]: u
+                  - generic [ref=e536]: r
+                  - generic [ref=e537]: i
+                  - generic [ref=e538]: "n"
+                  - generic [ref=e539]: g
+                  - generic [ref=e540]: ","
+                - generic [ref=e541]:
+                  - generic [ref=e542]: I
+                  - generic [ref=e543]: t
+                  - generic [ref=e544]: a
+                  - generic [ref=e545]: l
+                  - generic [ref=e546]: "y"
+          - generic [ref=e547]:
+            - button "Previous testimonial" [disabled] [ref=e548]:
+              - img [ref=e549]
+            - button "Next testimonial" [ref=e551] [cursor=pointer]:
+              - img [ref=e552]
+    - generic [ref=e555]:
+      - generic [ref=e556]:
+        - generic [ref=e557]:
+          - text: News
+          - heading "Latest news" [level=2] [ref=e558]
+        - link "View all news" [ref=e559] [cursor=pointer]:
+          - /url: /news
+          - text: View all news
+          - img [ref=e560]
+      - link "June 18, 2026 Hello Hello World Read more" [ref=e564] [cursor=pointer]:
+        - /url: /news/hello
+        - generic [ref=e567]:
+          - time [ref=e568]: June 18, 2026
+          - heading "Hello" [level=3] [ref=e569]
+          - paragraph [ref=e570]: Hello World
+          - generic [ref=e571]:
+            - text: Read more
+            - img [ref=e572]
+    - generic [ref=e576]:
+      - generic [ref=e577]:
+        - generic [ref=e578]: FAQs
+        - heading "Questions, answered" [level=2] [ref=e580]
+        - paragraph [ref=e582]: Can't find what you're looking for? Our team is one message away.
+        - link "Talk to us" [ref=e584] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e585]:
+        - generic [ref=e586]:
+          - button "How quickly can you respond to a critical issue?" [ref=e587]:
+            - generic [ref=e588]: How quickly can you respond to a critical issue?
+            - img [ref=e590]
+          - paragraph [ref=e594]: Our service desk operates 24/7 across regions. Critical incidents are triaged immediately, with response targets defined in your SLA — typically within minutes, not hours.
+        - button "Which countries do you operate in?" [ref=e596]:
+          - generic [ref=e597]: Which countries do you operate in?
+          - img [ref=e599]
+        - button "What does a cyber risk assessment include?" [ref=e601]:
+          - generic [ref=e602]: What does a cyber risk assessment include?
+          - img [ref=e604]
+        - button "Can you supplement our existing IT team?" [ref=e606]:
+          - generic [ref=e607]: Can you supplement our existing IT team?
+          - img [ref=e609]
+        - button "How is pricing structured?" [ref=e611]:
+          - generic [ref=e612]: How is pricing structured?
+          - img [ref=e614]
+    - generic [ref=e616]:
+      - generic [ref=e617]:
+        - generic [ref=e618]: Get started
+        - heading "Let's make your IT a non-issue" [level=2] [ref=e620]
+        - paragraph [ref=e622]: Book a free, no-obligation assessment. We'll review your environment and show you exactly where we can help — usually within 48 hours.
+        - generic [ref=e624]:
+          - generic [ref=e625]:
+            - img [ref=e626]
+            - text: Your nearest office · United Kingdom
+          - paragraph [ref=e629]: Manchester
+          - paragraph [ref=e630]: TechWelt IT Professionals Ltd
+          - paragraph [ref=e631]:
+            - generic [ref=e632]: 11 Milltown Street, Radcliffe
+            - generic [ref=e633]: Manchester M26 1WD, UK
+          - link "Email us support@techweltit.com" [ref=e635] [cursor=pointer]:
+            - /url: mailto:support@techweltit.com
+            - img [ref=e637]
+            - generic [ref=e640]:
+              - generic [ref=e641]: Email us
+              - generic [ref=e642]: support@techweltit.com
+      - generic [ref=e644]:
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - generic [ref=e647]: Full name
+            - textbox "Jane Doe" [ref=e648]
+          - generic [ref=e649]:
+            - generic [ref=e650]: Work email
+            - textbox "jane@company.com" [ref=e651]
+        - generic [ref=e652]:
+          - generic [ref=e653]:
+            - generic [ref=e654]: Company
+            - textbox "Acme Ltd" [ref=e655]
+          - generic [ref=e656]:
+            - generic [ref=e657]: Phone
+            - textbox "+44 …" [ref=e658]
+        - generic [ref=e659]:
+          - generic [ref=e660]: How can we help?
+          - textbox "Tell us about your IT or security challenge…" [ref=e661]
+        - button "Request my free assessment" [ref=e662]:
+          - text: Request my free assessment
+          - img [ref=e663]
+        - paragraph [ref=e665]: No spam, ever. We'll only use your details to respond to your enquiry.
+    - generic [ref=e667]:
+      - generic [ref=e668]:
+        - generic [ref=e669]:
+          - generic [ref=e670]:
+            - img "Techwelt" [ref=e671]
+            - generic [ref=e672]: Techwelt
+          - paragraph [ref=e673]: Innovative IT support, cybersecurity and global talent — keeping businesses seamless, secure and future-ready.
+          - list [ref=e674]:
+            - listitem [ref=e675]:
+              - img [ref=e676]
+              - text: United Kingdom — Manchester
+            - listitem [ref=e679]:
+              - img [ref=e680]
+              - text: Italy — Rome
+            - listitem [ref=e683]:
+              - img [ref=e684]
+              - text: Germany — Straßlach-Dingharting
+            - listitem [ref=e687]:
+              - img [ref=e688]
+              - text: United Arab Emirates — Dubai
+          - generic [ref=e691]:
+            - link "social link" [ref=e692] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e693]
+            - link "social link" [ref=e697] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e698]
+            - link "social link" [ref=e700] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e701]
+        - generic [ref=e703]:
+          - heading "Services" [level=4] [ref=e704]
+          - list [ref=e705]:
+            - listitem [ref=e706]:
+              - link "Cyber Risk Assessments" [ref=e707] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e708]:
+              - link "IT Asset Lifecycle Management" [ref=e709] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e710]:
+              - link "Global IT Staffing" [ref=e711] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e712]:
+              - link "Global IT Support Services" [ref=e713] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e714]:
+              - link "Global Service Desk" [ref=e715] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e716]:
+          - heading "Company" [level=4] [ref=e717]
+          - list [ref=e718]:
+            - listitem [ref=e719]:
+              - link "About Us" [ref=e720] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e721]:
+              - link "Our Process" [ref=e722] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e723]:
+              - link "Industries" [ref=e724] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e725]:
+              - link "Insights" [ref=e726] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e727]:
+              - link "Careers" [ref=e728] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e729]:
+          - heading "Support" [level=4] [ref=e730]
+          - list [ref=e731]:
+            - listitem [ref=e732]:
+              - link "Contact Us" [ref=e733] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e734]:
+              - link "FAQs" [ref=e735] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e736]:
+              - link "Service Desk" [ref=e737] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e738]:
+              - link "Privacy Policy" [ref=e739] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e740]:
+              - link "Terms" [ref=e741] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e742]:
+        - paragraph [ref=e743]: © 2026 Techwelt. All rights reserved.
+        - link "Back to top" [ref=e744] [cursor=pointer]:
+          - /url: "#top"
+          - text: Back to top
+          - img [ref=e745]
+  - button "Open Next.js Dev Tools" [ref=e752] [cursor=pointer]:
+    - img [ref=e753]

@@ -1,0 +1,112 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - navigation [ref=e7]:
+            - button "previous" [disabled] [ref=e8]:
+              - img "previous" [ref=e9]
+            - generic [ref=e11]:
+              - generic [ref=e12]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=e13]:
+              - img "next" [ref=e14]
+          - img
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - img [ref=e18]
+            - generic "Latest available version is detected (16.2.9)." [ref=e20]: Next.js 16.2.9
+            - generic [ref=e21]: Turbopack
+          - img
+      - dialog "Runtime Error" [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]:
+                - generic [ref=e30]: Runtime Error
+                - generic [ref=e31]: Server
+              - generic [ref=e32]:
+                - button "Copy Error Info" [ref=e33] [cursor=pointer]:
+                  - img [ref=e34]
+                - button "No related documentation found" [disabled] [ref=e36]:
+                  - img [ref=e37]
+                - button "Attach Node.js inspector" [ref=e39] [cursor=pointer]:
+                  - img [ref=e40]
+            - generic [ref=e49]:
+              - text: Couldn't find next-intl config file. Please follow the instructions at
+              - link "https://next-intl.dev/docs/getting-started/app-router" [ref=e50] [cursor=pointer]:
+                - /url: https://next-intl.dev/docs/getting-started/app-router
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - paragraph [ref=e54]:
+                - img [ref=e56]
+                - generic [ref=e59]: app\[locale]\layout.tsx (59:37) @ LocaleLayout
+                - button "Open in editor" [ref=e60] [cursor=pointer]:
+                  - img [ref=e62]
+              - generic [ref=e65]:
+                - generic [ref=e66]: 57 | setRequestLocale(locale);
+                - generic [ref=e67]: 58 |
+                - generic [ref=e68]: "> 59 | const messages = await getMessages();"
+                - generic [ref=e69]: "| ^"
+                - generic [ref=e70]: 60 | const country = await getActiveCountry();
+                - generic [ref=e71]: 61 | const entity = ENTITIES[country];
+                - generic [ref=e72]: 62 |
+            - generic [ref=e73]:
+              - paragraph [ref=e75]:
+                - text: Call Stack
+                - generic [ref=e76]: "6"
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - text: LocaleLayout
+                  - button "Open LocaleLayout in editor" [ref=e79] [cursor=pointer]:
+                    - img [ref=e80]
+                - text: app\[locale]\layout.tsx (59:37)
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - text: resolveErrorDev
+                  - button "Sourcemapping failed. Click to log cause of error." [ref=e84] [cursor=pointer]:
+                    - img [ref=e85]
+                - text: file:///D:/Claude%20Code/techweltit/.next/dev/static/chunks/0t86_next_dist_compiled_react-server-dom-turbopack_1x7j4z6._.js (1919:105)
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - text: processFullStringRow
+                  - button "Sourcemapping failed. Click to log cause of error." [ref=e89] [cursor=pointer]:
+                    - img [ref=e90]
+                - text: file:///D:/Claude%20Code/techweltit/.next/dev/static/chunks/0t86_next_dist_compiled_react-server-dom-turbopack_1x7j4z6._.js (2434:29)
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - text: processFullBinaryRow
+                  - button "Sourcemapping failed. Click to log cause of error." [ref=e94] [cursor=pointer]:
+                    - img [ref=e95]
+                - text: file:///D:/Claude%20Code/techweltit/.next/dev/static/chunks/0t86_next_dist_compiled_react-server-dom-turbopack_1x7j4z6._.js (2393:9)
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - text: processBinaryChunk
+                  - button "Sourcemapping failed. Click to log cause of error." [ref=e99] [cursor=pointer]:
+                    - img [ref=e100]
+                - text: file:///D:/Claude%20Code/techweltit/.next/dev/static/chunks/0t86_next_dist_compiled_react-server-dom-turbopack_1x7j4z6._.js (2502:221)
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - text: progress
+                  - button "Sourcemapping failed. Click to log cause of error." [ref=e104] [cursor=pointer]:
+                    - img [ref=e105]
+                - text: file:///D:/Claude%20Code/techweltit/.next/dev/static/chunks/0t86_next_dist_compiled_react-server-dom-turbopack_1x7j4z6._.js (2689:13)
+        - generic [ref=e107]: "1"
+        - generic [ref=e108]: "2"
+    - generic [ref=e113] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e114]:
+        - img [ref=e115]
+      - generic [ref=e118]:
+        - button "Open issues overlay" [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: "0"
+            - generic [ref=e122]: "1"
+          - generic [ref=e123]: Issue
+        - button "Collapse issues badge" [ref=e124]:
+          - img [ref=e125]
+  - generic [ref=e128]:
+    - img [ref=e129]
+    - heading "This page couldn’t load" [level=1] [ref=e131]
+    - paragraph [ref=e132]: A server error occurred. Reload to try again.
+    - button "Reload" [ref=e135] [cursor=pointer]
+  - paragraph [ref=e136]: ERROR 3777789556
