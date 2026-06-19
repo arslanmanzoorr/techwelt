@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { upload } from "@vercel/blob/client";
 import { Eye, Pencil, Upload, Loader2, X } from "lucide-react";
 import { savePostAction } from "../actions";
 import type { NewsPost } from "@/lib/db";
@@ -23,18 +22,14 @@ export function EditorForm({ post }: { post: NewsPost | null }) {
     setUploading(true);
     setUploadError(null);
     try {
-      const blob = await upload(file.name, file, {
-        access: "public",
-        handleUploadUrl: "/api/admin/upload",
-        contentType: file.type,
-      });
-      setCover(blob.url);
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
+      const data = (await res.json()) as { url?: string; error?: string };
+      if (!res.ok || !data.url) throw new Error(data.error || "Upload failed");
+      setCover(data.url);
     } catch (err) {
-      setUploadError(
-        (err as Error).message?.includes("token") || (err as Error).message?.includes("BLOB")
-          ? "Upload needs BLOB_READ_WRITE_TOKEN — add a Vercel Blob store, or paste an image URL instead."
-          : `Upload failed: ${(err as Error).message}`
-      );
+      setUploadError((err as Error).message);
     } finally {
       setUploading(false);
       if (fileRef.current) fileRef.current.value = "";
