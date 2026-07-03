@@ -39,8 +39,8 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     city: "Manchester",
     dialCode: "+44",
     addressLines: ["11 Milltown Street, Radcliffe", "Manchester M26 1WD, UK"],
-    phone: "", // TODO: add a dedicated UK number
-    email: "support@techweltit.com",
+    phone: "+44 7429 494820", // TODO: add a dedicated UK number
+    email: "info@techweltit.com",
     mapUrl: "https://maps.google.com/?q=11+Milltown+Street+Radcliffe+Manchester+M26+1WD",
   },
   IT: {
@@ -52,7 +52,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     addressLines: ["Via Aversa 15", "00177 Rome, Italy"],
     phone: "+39 350 938 8630",
     phoneAlt: "+39 329 306 3324",
-    email: "support@techweltit.com",
+    email: "info@techweltit.com",
     mapUrl: "https://maps.google.com/?q=Via+Aversa+15+00177+Rome",
   },
   DE: {
@@ -63,7 +63,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     dialCode: "+49",
     addressLines: ["Gewerbestraße 13", "82064 Straßlach-Dingharting, Germany"],
     phone: "", // TODO: add a German number
-    email: "support@techweltit.com",
+    email: "info@techweltit.com",
     mapUrl: "https://maps.google.com/?q=Gewerbestrasse+13+82064+Strasslach-Dingharting+Germany",
   },
   AE: {
@@ -74,7 +74,7 @@ export const ENTITIES: Record<CountryCode, Entity> = {
     dialCode: "+971",
     addressLines: ["Meydan Grandstand, 6th floor", "Meydan Road, Nad Al Sheba, Dubai"],
     phone: "", // TODO: add a UAE number
-    email: "support@techweltit.com",
+    email: "info@techweltit.com",
     mapUrl: "https://maps.google.com/?q=Meydan+Grandstand+Nad+Al+Sheba+Dubai",
   },
 };
