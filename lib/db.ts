@@ -190,3 +190,97 @@ export async function listSubmissions(): Promise<ContactSubmission[]> {
   const rows = await sql`SELECT * FROM contact_submissions ORDER BY created_at DESC`;
   return rows as ContactSubmission[];
 }
+
+/* ── Reviews / testimonials ──────────────────────────────────────────────── */
+
+export interface Review {
+  id: number;
+  name: string;
+  position: string;
+  company: string;
+  image: string | null;
+  quote: string;
+  published: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export type ReviewInput = {
+  name: string;
+  position: string;
+  company: string;
+  image: string | null;
+  quote: string;
+  published: boolean;
+};
+
+let reviewsEnsured = false;
+async function ensureReviewsTable() {
+  if (!sql || reviewsEnsured) return;
+  await sql`
+    CREATE TABLE IF NOT EXISTS reviews (
+      id SERIAL PRIMARY KEY,
+      name TEXT NOT NULL,
+      position TEXT NOT NULL DEFAULT '',
+      company TEXT NOT NULL DEFAULT '',
+      image TEXT,
+      quote TEXT NOT NULL DEFAULT '',
+      published BOOLEAN NOT NULL DEFAULT false,
+      created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    )
+  `;
+  reviewsEnsured = true;
+}
+
+export async function listPublishedReviews(): Promise<Review[]> {
+  if (!sql) return [];
+  await ensureReviewsTable();
+  const rows = await sql`SELECT * FROM reviews WHERE published = true ORDER BY created_at DESC`;
+  return rows as Review[];
+}
+
+export async function listAllReviews(): Promise<Review[]> {
+  if (!sql) return [];
+  await ensureReviewsTable();
+  const rows = await sql`SELECT * FROM reviews ORDER BY created_at DESC`;
+  return rows as Review[];
+}
+
+export async function getReviewById(id: number): Promise<Review | null> {
+  if (!sql) return null;
+  await ensureReviewsTable();
+  const rows = await sql`SELECT * FROM reviews WHERE id = ${id} LIMIT 1`;
+  return (rows[0] as Review) ?? null;
+}
+
+export async function createReview(input: ReviewInput): Promise<Review> {
+  if (!sql) throw new Error("Database not configured");
+  await ensureReviewsTable();
+  const rows = await sql`
+    INSERT INTO reviews (name, position, company, image, quote, published)
+    VALUES (${input.name}, ${input.position}, ${input.company}, ${input.image}, ${input.quote}, ${input.published})
+    RETURNING *
+  `;
+  return rows[0] as Review;
+}
+
+export async function updateReview(id: number, input: ReviewInput): Promise<Review> {
+  if (!sql) throw new Error("Database not configured");
+  await ensureReviewsTable();
+  const rows = await sql`
+    UPDATE reviews
+    SET name = ${input.name}, position = ${input.position}, company = ${input.company},
+        image = ${input.image}, quote = ${input.quote}, published = ${input.published},
+        updated_at = now()
+    WHERE id = ${id}
+    RETURNING *
+  `;
+  return rows[0] as Review;
+}
+
+export async function deleteReview(id: number): Promise<void> {
+  if (!sql) throw new Error("Database not configured");
+  await ensureReviewsTable();
+  await sql`DELETE FROM reviews WHERE id = ${id}`;
+}
