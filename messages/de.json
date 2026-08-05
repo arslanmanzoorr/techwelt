@@ -38,7 +38,7 @@
     "subtitle": "Wir liefern innovativen IT-Support, Cybersicherheit und globales Staffing — damit Ihr Betrieb reibungslos, sicher und für die Zukunft gerüstet bleibt.",
     "ctaPrimary": "Kostenlose Analyse anfordern",
     "ctaSecondary": "Unsere Leistungen entdecken",
-    "trust": "ISO-konforme Prozesse · Zertifizierte Fachkräfte · DSGVO-konform"
+    "trust": "Enterprise-Qualität · Zertifizierte Fachkräfte · DSGVO-konform"
   },
   "stats": {
     "satisfaction": "Kundenzufriedenheit",
@@ -146,7 +146,7 @@
       "p1": "Cyber-Risikoanalysen und Penetrationstests",
       "p2": "24/7-Bedrohungsüberwachung und -Reaktion (SOC)",
       "p3": "Identitäts- und Zugriffsmanagement",
-      "p4": "Compliance: ISO 27001, DSGVO, SOC 2"
+      "p4": "Compliance: DSGVO, SOC 2 und Best Practices"
     },
     "software": {
       "long": "Wir entwerfen und bauen Software, die hält — sauber, getestet und wartbar. Ob neues Produkt, Modernisierung eines Legacy-Systems oder zusätzliche Senior-Engineering-Kapazität — wir liefern mit DevOps und Quality Engineering von Tag eins an.",
@@ -222,7 +222,7 @@
     "kicker": "Vertrauen & Compliance",
     "title": "Auf Standards gebaut, denen Sie vertrauen können",
     "subtitle": "Sicherheit und Qualität sind in allem, was wir tun, verankert — im Einklang mit den Frameworks, die Ihre Auditoren erwarten.",
-    "i1": "ISO-27001-konform",
+    "i1": "Security by Design",
     "i2": "DSGVO-bereit",
     "i3": "SOC-2-Praktiken",
     "i4": "Cyber Essentials",

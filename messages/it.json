@@ -38,7 +38,7 @@
     "subtitle": "Offriamo supporto IT innovativo, cybersecurity e personale qualificato a livello globale — per operazioni fluide, sicure e pronte ad affrontare ogni sfida futura.",
     "ctaPrimary": "Richiedi una valutazione gratuita",
     "ctaSecondary": "Scopri i nostri servizi",
-    "trust": "Processi conformi agli standard ISO · Professionisti certificati · Conforme al GDPR"
+    "trust": "Consegna di livello enterprise · Professionisti certificati · Conforme al GDPR"
   },
   "stats": {
     "satisfaction": "Soddisfazione dei clienti",
@@ -146,7 +146,7 @@
       "p1": "Valutazioni del rischio cyber e penetration test",
       "p2": "Monitoraggio e risposta alle minacce 24/7 (SOC)",
       "p3": "Gestione di identità e accessi",
-      "p4": "Conformità: ISO 27001, GDPR, SOC 2"
+      "p4": "Conformità: GDPR, SOC 2 e best practice"
     },
     "software": {
       "long": "Progettiamo e sviluppiamo software che dura — pulito, testato e manutenibile. Che ti serva un nuovo prodotto, la modernizzazione di un sistema legacy o capacità ingegneristica senior aggiuntiva, consegniamo con DevOps e quality engineering integrati fin dal primo giorno.",
@@ -222,7 +222,7 @@
     "kicker": "Fiducia e conformità",
     "title": "Costruito su standard di cui fidarsi",
     "subtitle": "Sicurezza e qualità sono integrate in tutto ciò che facciamo, in linea con i framework che i tuoi auditor si aspettano.",
-    "i1": "Allineato a ISO 27001",
+    "i1": "Sicuro per progettazione",
     "i2": "Conforme al GDPR",
     "i3": "Pratiche SOC 2",
     "i4": "Cyber Essentials",

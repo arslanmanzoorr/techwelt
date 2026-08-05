@@ -38,7 +38,7 @@
     "subtitle": "We deliver innovative IT support, cybersecurity and global staffing — keeping your operations seamless, secure and ready for whatever comes next.",
     "ctaPrimary": "Get a free assessment",
     "ctaSecondary": "Explore our services",
-    "trust": "ISO-aligned processes · Certified professionals · GDPR-ready"
+    "trust": "Enterprise-grade delivery · Certified professionals · GDPR-ready"
   },
   "stats": {
     "satisfaction": "Client satisfaction",
@@ -146,7 +146,7 @@
       "p1": "Cyber risk assessments and penetration testing",
       "p2": "24/7 threat monitoring and response (SOC)",
       "p3": "Identity and access management",
-      "p4": "Compliance: ISO 27001, GDPR, SOC 2"
+      "p4": "Compliance: GDPR, SOC 2 and best practice"
     },
     "software": {
       "long": "We design and build software that lasts — clean, tested and maintainable. Whether you need a new product, a legacy system modernised, or extra senior engineering capacity, we deliver with DevOps and quality engineering built in from day one.",
@@ -222,7 +222,7 @@
     "kicker": "Trust & compliance",
     "title": "Built on standards you can trust",
     "subtitle": "Security and quality are engineered into everything we do, aligned with the frameworks your auditors expect.",
-    "i1": "ISO 27001-aligned",
+    "i1": "Secure by design",
     "i2": "GDPR-ready",
     "i3": "SOC 2 practices",
     "i4": "Cyber Essentials",
